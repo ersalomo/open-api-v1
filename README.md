@@ -1,4 +1,4 @@
-# Porjct ini dibuat untuk menyelesaikan tugas dari Dicoding
+# Project ini dibuat untuk menyelesaikan tugas dari Dicoding
 
  ## kriteria
  + GET /albums{id}
