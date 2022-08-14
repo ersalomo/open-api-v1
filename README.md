@@ -9,9 +9,9 @@
       "id": "album-Mk8AnmCp210PwT6B",
       "name": "Viva la Vida",
       "year": 2008
-     }
+      }
+      }
     }
-  }
 
 + GET /songs
   - ```{
@@ -33,9 +33,9 @@
                 "title": "Lost!",
                 "performer": "Coldplay"
             }
-        ]
+          ]
+      }
     }
-}
 + GET /songs/{id}
   - ```{
     "status": "success",
@@ -48,9 +48,9 @@
             "genre": "Indie",
             "duration": 120,
             "albumId": "album-Mk8AnmCp210PwT6B"
-        }
+              }
+      }
     }
-}
 
 ## validation
  + POST /albums
