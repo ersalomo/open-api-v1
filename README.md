@@ -11,10 +11,10 @@
       "year": 2008
      }
     }
-  }```
+  }
 
 + GET /songs
-  - {
+  - ```{
     "status": "success",
     "data": {
         "songs": [
@@ -37,7 +37,7 @@
     }
 }
 + GET /songs/{id}
-  - {
+  - ```{
     "status": "success",
     "data": {
         "song": {
