@@ -74,5 +74,26 @@
    - duration : number.
    - albumId : string.
 
+# (Error Handling)
+
+* Ketika proses validasi data pada request payload tidak sesuai (gagal), server harus mengembalikan response:
+  - status code: 400 (Bad Request)
+  - response body: 
+  - - status: fail
+    - message: <apa pun selama tidak kosong>
+Ketika pengguna mengakses resource yang tidak ditemukan, server harus mengembalikan response:
+status code: 404 (Not Found)
+response body:
+status: fail
+message: <apa pun selama tidak kosong>
+Ketika terjadi server eror, server harus mengembalikan response:
+status code: 500 (Internal Server Error)
+response body:
+status: error
+message: <apa pun selama tidak kosong>
+
+
+# Kriteria Opsional OpenMusic API versi 1
+
 
 
