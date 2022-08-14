@@ -2,7 +2,7 @@
 
  ## kriteria
  + GET /albums{id}
- - ({
+ - ```{
     "status": "success",
     "data": {
     "album": {
@@ -11,7 +11,7 @@
       "year": 2008
      }
     }
-  }.)
+  }```
 
 + GET /songs
   - {
