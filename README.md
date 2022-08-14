@@ -13,3 +13,29 @@
   }
 } 
 
++ GET /songs
+  - {
+    "status": "success",
+    "data": {
+        "songs": [
+            {
+                "id": "song-Qbax5Oy7L8WKf74l",
+                "title": "Life in Technicolor",
+                "performer": "Coldplay"
+            },
+            {
+                "id": "song-poax5Oy7L8WKllqw",
+                "title": "Centimeteries of London",
+                "performer": "Coldplay"
+            },
+            {
+                "id": "song-Qalokam7L8WKf74l",
+                "title": "Lost!",
+                "performer": "Coldplay"
+            }
+        ]
+    }
+}
+
+
+
